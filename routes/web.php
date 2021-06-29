@@ -33,6 +33,7 @@ Route::post('/register', [UserController::class, 'store'])->name('store');
 Route::get('/contact', [contactController::class, 'contact']);
 
 Route::post('/contact', [contactController::class, 'message'])->name('message');
+Route::post('/dashboard', [shopsController::class, 'review'])->name('review');
 Route::get('/campaigns', [ShopsController::class, 'camp']);
 Route::get('/cart', [ShopsController::class, 'cart']);
 Route::get('/checkout', [ShopsController::class, 'check']);

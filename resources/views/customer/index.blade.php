@@ -498,7 +498,7 @@
 
                                     </li>
                                     <li>
-                                        <a href="/shop" class="sf-with-ul">All shopss</a>
+                                        <a href="/shop" class="sf-with-ul">All shops</a>
 
                                         <div class="megamenu megamenu-md">
                                         <div class="row no-gutters">
@@ -549,15 +549,19 @@
                                     </div><!-- End .megamenu megamenu-md -->
                                     </li>
                                     <li>
-                                        <a href="/campaigns" class="sf-with-ul">campaigns</a>
+                                        <a href="/product" class="sf-with-ul">products</a>
                                     </li>
                                     <li>
-                                        <a href="/about" class="sf-with-ul">About</a>   
+                                        <a href="/campaigns" class="sf-with-ul">campaigns</a>
                                     </li>
                                     <li>
                                         <a href="/contact" class="sf-with-ul">Contact</a>
                                
                                     </li>
+                                    <li>
+                                        <a href="/about" class="sf-with-ul">About</a>   
+                                    </li>
+                                   
                                     <li>
                                         <a href="/help" class="sf-with-ul">help</a>
                                             <ul>

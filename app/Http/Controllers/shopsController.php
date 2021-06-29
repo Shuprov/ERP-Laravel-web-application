@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\cart;
 use Illuminate\Http\Request;
 use App\Models\shop;
+use App\Models\review;
+use Carbon\carbon;
 
 class shopsController extends Controller
 {
@@ -42,4 +44,17 @@ class shopsController extends Controller
     }
     //end checkout part...
 
+    // review controller..
+    public function review(Request $request)
+    {
+        //insert
+        review::insert([
+            'customer_name' => $request->customer_name,
+            'product_id' => $request->product_id,
+            'product_catagory' => $request->product_catagory,
+            'product_review' => $request->product_review,
+            'created_at' => Carbon::now()
+        ]);
+        return redirect('/dashboard');
+    }
 }

@@ -75,55 +75,30 @@
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
                                 <li class="megamenu-container active">
-                                    <a href="index.html" class="sf-with-ul">Home</a>
+                                    <a href="/home" class="sf-with-ul">Home</a>
 
                                 </li>
                                 <li>
-                                    <a href="category.html" class="sf-with-ul">All Shops</a>
+                                    <a href="/shop" class="sf-with-ul"> All Shops</a>
 
-                                    <div class="megamenu megamenu-md">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-8">
-                                                <div class="menu-col">
-                                                    <div class="row">                                                  
-                                                        <div class="col-md-6">
-                                                            <div class="menu-title">Product Category</div><!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="product-category-boxed.html">Product Category Boxed</a></li>
-                                                                <li><a href="product-category-fullwidth.html"><span>Product Category Fullwidth<span class="tip tip-new">New</span></span></a></li>
-                                                            </ul>
-                                                            
-                                                           
-                                                        </div><!-- End .col-md-6 -->
-                                                    </div><!-- End .row -->
-                                                </div><!-- End .menu-col -->
-                                            </div><!-- End .col-md-8 -->
 
-                                            <div class="col-md-4">
-                                                <div class="banner banner-overlay">
-                                                    <a href="category.html" class="banner banner-menu">
-                                                        <img src="assets/images/menu/banner-1.jpg" alt="Banner">
+                                </li>
+                                <li>
+                                    <a href="/product" class="sf-with-ul">Products</a>
 
-                                                        <div class="banner-content banner-content-top">
-                                                            <div class="banner-title text-white">Last <br>Chance<br><span><strong>Sale</strong></span></div><!-- End .banner-title -->
-                                                        </div><!-- End .banner-content -->
-                                                    </a>
-                                                </div><!-- End .banner banner-overlay -->
-                                            </div><!-- End .col-md-4 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .megamenu megamenu-md -->
                                 </li>
                                 <li>
-                                    <a href="product.html" class="sf-with-ul">Campaigns</a>                                  
+                                    <a href="/campaigns" class="sf-with-ul">Campaigns</a>
+
                                 </li>
                                 <li>
-                                    <a href="about.html" class="sf-with-ul">About</a>
+                                    <a href="/contact" class="sf-with-ul">Contact</a>
+
+
                                 </li>
                                 <li>
-                                 <a href="contact.html" class="sf-with-ul">Contact</a>                                      
-                                </li>
-                                <li>
-                                    <a href="help.html" class="sf-with-ul">Help</a>
+                                    <a href="/about" class="sf-with-ul">About</a>
+
                                 </li>
                             </ul><!-- End .menu -->
                         </nav><!-- End .main-nav -->

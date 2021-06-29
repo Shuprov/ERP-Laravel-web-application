@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class indexController extends Controller
 {
     //function
-    public function index(){
+    public function index(Request $req){
+        $req->session()->flush();
         return view('customer.index');
     }
 }
