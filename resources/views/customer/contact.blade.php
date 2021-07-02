@@ -251,7 +251,7 @@
                 			<h2 class="title mb-1">Chat With Admin</h2><!-- End .title mb-2 -->
                 			<p class="mb-2">Use the form below to get in touch with the sales team</p>
 
-                			<form action="{{ route('message')}}"  method="post" >
+                			<form action="{{ route('message2')}}"  method="post" >
                                 @csrf
                 				<div class="row">
                 					<div class="col-sm-6">
@@ -307,21 +307,21 @@
                 			<h2 class="title mb-1">Request for Refand</h2><!-- End .title mb-2 -->
                 			<p class="mb-2">Fill-up this page</p>
 
-                			<form action="{{ route('message')}}"  method="post" >
+                			<form action="{{ route('refand')}}"  method="post" >
                                 @csrf
                 				<div class="row">
                 					<div class="col-sm-6">
                                         <label for="cname" class="sr-only">Invoice</label>
                 						<input type="text" class="form-control" id="cname" placeholder="Type your Invoice*" name="invoice" >
-                                        @error('c_name')
+                                        @error('invoice')
                                         {{ $message }}
                                     @enderror
                 					</div><!-- End .col-sm-6 -->
 
                 					<div class="col-sm-6">
                                         <label for="cemail" class="sr-only"></label>
-                						<input type="email" class="form-control" id="cemail" placeholder="Type your pament Methode *" name="payment_method">
-                                        @error('c_email')
+                						<input type="text" class="form-control" id="cemail" placeholder="Type your pament Methode *" name="payment_method">
+                                        @error('payment_method')
                                         {{ $message }}
                                     @enderror
                 					</div><!-- End .col-sm-6 -->
@@ -331,7 +331,7 @@
                 					<div class="col-sm-6">
                                         <label for="cphone" class="sr-only">Type your mobile Number</label>
                 						<input type="tel" class="form-control" id="cphone" placeholder="Type your mobile Number" name="phone">
-                                        @error('c_phone')
+                                        @error('phone')
                                         {{ $message }}
                                     @enderror
                 					</div><!-- End .col-sm-6 -->
@@ -341,7 +341,7 @@
 
                                 <label for="cmessage" class="sr-only">Message</label>
                 				<textarea class="form-control" cols="30" rows="4" id="cmessage" name="message" placeholder="Type your problem*"></textarea>
-                                @error('c_message')
+                                @error('message')
                                 {{ $message }}
                                    @enderror
                                    <br>

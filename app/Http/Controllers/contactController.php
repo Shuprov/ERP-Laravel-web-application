@@ -7,12 +7,15 @@ use App\Http\Requests\UserContact;
 use Carbon\carbon;
 use App\Models\contact;
 
-
-
 use Illuminate\Http\Request;
 
 class contactController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware("Contact");
+    }
     //
   public function contact(){
       return view('customer.contact');

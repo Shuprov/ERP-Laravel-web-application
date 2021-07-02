@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\product;
+
 use Illuminate\Http\Request;
 
 class productController extends Controller
@@ -18,6 +19,7 @@ class productController extends Controller
         //dd($asus);
         return view('customer.product', compact('asus'));
     }
+   
 
     //...product details....
     public function productdet($id)

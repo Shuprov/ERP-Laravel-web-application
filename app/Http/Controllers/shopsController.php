@@ -3,9 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Models\cart;
+use App\Models\refand;
 use Illuminate\Http\Request;
 use App\Models\shop;
 use App\Models\review;
+use App\Http\Requests\RefandRequest;
+use App\Http\Requests\ReviewRequest;
 use Carbon\carbon;
 
 class shopsController extends Controller
@@ -45,7 +48,7 @@ class shopsController extends Controller
     //end checkout part...
 
     // review controller..
-    public function review(Request $request)
+    public function review(ReviewRequest $request)
     {
         //insert
         review::insert([
@@ -56,5 +59,19 @@ class shopsController extends Controller
             'created_at' => Carbon::now()
         ]);
         return redirect('/dashboard');
+    }
+
+    //refand controller
+    public function refand(RefandRequest $request)
+    {
+        //insert
+        refand::insert([
+            'invoice' => $request->invoice,
+            'payment_ethode' => $request->payment_method,
+            'phone' => $request->phone,
+            'message' => $request->message,
+            'created_at' => Carbon::now()
+        ]);
+        return redirect('/contact');
     }
 }

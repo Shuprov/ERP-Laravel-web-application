@@ -32,7 +32,7 @@ class UserRequest extends FormRequest
             'user_dob'=>'required',
             'user_mob'=>'required',
             'user_email'=>'required',
-            'user_password'=>'required'
+            'user_password'=>'required|min:4|max:8'
         ];
     }
     public function messages()
@@ -44,6 +44,10 @@ class UserRequest extends FormRequest
             'user_address.min'=>'The user address must be at least 8 characters',
             'user_dob.required'=>'Must be fill-up Dath of Birth',
             'user_mob.required'=>'Must be fill-up your Mobile Number',
+            'user_email.required'=>'Must be fill-up your Email',
+            'user_password.required'=>'Must be fill-up your password',
+            'user_password.min'=>'mobile number must be 8 to 11 charecter',
+            'user_password.max'=>'mobile number must be 8 to 11 charecter'
             
 
 

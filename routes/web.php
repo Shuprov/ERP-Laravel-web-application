@@ -32,12 +32,15 @@ Route::get('/register', [UserController::class, 'reg']);
 Route::post('/register', [UserController::class, 'store'])->name('store');
 Route::get('/contact', [contactController::class, 'contact']);
 
-Route::post('/contact', [contactController::class, 'message'])->name('message');
+Route::post('/contact', [contactController::class, 'message'])->name('message2');
 Route::post('/dashboard', [shopsController::class, 'review'])->name('review');
+Route::post('/cont', [shopsController::class, 'refand'])->name('refand');
 Route::get('/campaigns', [ShopsController::class, 'camp']);
 Route::get('/cart', [ShopsController::class, 'cart']);
 Route::get('/checkout', [ShopsController::class, 'check']);
 Route::get('/product', [productController::class, 'products']);
+//product list..
+ Route::get('/dashboard', [dashboardController::class, 'productslist'])->name('productlist');
 Route::get('/product_details/{id}', [productController::class, 'productdet'])->name('product_details');
 
 Route::get("add_to_cart/{id}/{title}/{price}",[CartController::class, 'add'])->name("add_to_cart");
