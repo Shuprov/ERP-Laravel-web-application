@@ -36,38 +36,25 @@
             <div class="header-top">
                 <div class="container">
                     <div class="header-left">
-                        <div class="header-dropdown">
-                            <a href="#">Usd</a>
-                            <div class="header-menu">
-                                <ul>
-                                    <li><a href="#">Eur</a></li>
-                                    <li><a href="#">Usd</a></li>
-                                </ul>
-                            </div><!-- End .header-menu -->
-                        </div><!-- End .header-dropdown -->
-
-                        <div class="header-dropdown">
-                            <a href="#">Eng</a>
-                            <div class="header-menu">
-                                <ul>
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">French</a></li>
-                                    <li><a href="#">Spanish</a></li>
-                                </ul>
-                            </div><!-- End .header-menu -->
-                        </div><!-- End .header-dropdown -->
+                        <div class="flex items-center mr-6"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2875 3.75C12.02 3.89292 12.6933 4.25119 13.221 4.77895C13.7488 5.30671 14.1071 5.97995 14.25 6.7125L11.2875 3.75ZM11.2875 0.75C12.8094 0.919077 14.2287 1.60063 15.3122 2.68276C16.3957 3.76488 17.079 5.18326 17.25 6.705L11.2875 0.75ZM16.5 12.69V14.94C16.5008 15.1489 16.458 15.3556 16.3744 15.547C16.2907 15.7384 16.168 15.9102 16.014 16.0514C15.8601 16.1926 15.6784 16.3001 15.4805 16.367C15.2827 16.4339 15.073 16.4588 14.865 16.44C12.5571 16.1892 10.3402 15.4006 8.39248 14.1375C6.58035 12.986 5.04398 11.4496 3.89248 9.6375C2.62496 7.6809 1.83616 5.45325 1.58998 3.135C1.57124 2.9276 1.59589 2.71857 1.66236 2.52122C1.72882 2.32387 1.83566 2.14252 1.97605 1.98872C2.11645 1.83491 2.28733 1.71203 2.47782 1.62789C2.66831 1.54375 2.87424 1.5002 3.08248 1.5H5.33248C5.69646 1.49642 6.04932 1.62531 6.3253 1.86265C6.60128 2.09999 6.78154 2.42959 6.83248 2.79C6.92745 3.51005 7.10357 4.21705 7.35748 4.8975C7.45839 5.16594 7.48023 5.45769 7.42041 5.73816C7.36059 6.01863 7.22163 6.27608 7.01998 6.48L6.06748 7.4325C7.13515 9.31016 8.68982 10.8648 10.5675 11.9325L11.52 10.98C11.7239 10.7784 11.9813 10.6394 12.2618 10.5796C12.5423 10.5198 12.834 10.5416 13.1025 10.6425C13.7829 10.8964 14.4899 11.0725 15.21 11.1675C15.5743 11.2189 15.907 11.4024 16.1449 11.6831C16.3827 11.9638 16.5091 12.3222 16.5 12.69Z" stroke="#C9151B" stroke-linecap="round" stroke-linejoin="round"></path></svg><a class="ml-2" href="tel:09638111666">09638118222</a></div>
+                            &nbsp
+                            <div class="flex items-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.00001 3H15C15.825 3 16.5 3.675 16.5 4.5V13.5C16.5 14.325 15.825 15 15 15H3.00001C2.17501 15 1.50001 14.325 1.50001 13.5V4.5C1.50001 3.675 2.17501 3 3.00001 3Z" stroke="#C9151B" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.5 4.5L9.00001 9.75L1.50001 4.5" stroke="#C9151B" stroke-linecap="round" stroke-linejoin="round"></path></svg><a href="mailto:support@evaly.com.bd" class="ml-2">support@erp.com.bd</a></div>
+                        
                     </div><!-- End .header-left -->
+
+                        
+                    
 
                     <div class="header-right">
                         <ul class="top-menu">
                             <li>
                                 <a href="#">Links</a>
                                 <ul>
-                                    <li><a href="tel:#"><i class="icon-phone"></i>Call: +0123 456 789</a></li>
-                                    <li><a href="wishlist.html"><i class="icon-heart-o"></i>Wishlist <span>(3)</span></a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="#signin-modal" data-toggle="modal"><i class="icon-user"></i>Login</a></li>
+                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/contact.html">Contact Us</a></li>
+                                    <li><a href="/login" data-toggle="modal"><i class="icon-user"></i>Login</a></li>
                                 </ul>
                             </li>
                         </ul><!-- End .top-menu -->
@@ -89,368 +76,30 @@
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
                                 <li class="megamenu-container active">
-                                    <a href="index.html" class="sf-with-ul">Home</a>
+                                    <a href="/home" class="sf-with-ul">Home</a>
 
-                                    <div class="megamenu demo">
-                                        <div class="menu-col">
-                                            <div class="menu-title">Choose your demo</div><!-- End .menu-title -->
-
-                                            <div class="demo-list">
-                                                <div class="demo-item">
-                                                    <a href="index-1.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/1.jpg);"></span>
-                                                        <span class="demo-title">01 - furniture store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-2.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/2.jpg);"></span>
-                                                        <span class="demo-title">02 - furniture store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-3.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/3.jpg);"></span>
-                                                        <span class="demo-title">03 - electronic store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-4.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/4.jpg);"></span>
-                                                        <span class="demo-title">04 - electronic store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-5.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/5.jpg);"></span>
-                                                        <span class="demo-title">05 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-6.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/6.jpg);"></span>
-                                                        <span class="demo-title">06 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-7.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/7.jpg);"></span>
-                                                        <span class="demo-title">07 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-8.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/8.jpg);"></span>
-                                                        <span class="demo-title">08 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-9.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/9.jpg);"></span>
-                                                        <span class="demo-title">09 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item">
-                                                    <a href="index-10.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/10.jpg);"></span>
-                                                        <span class="demo-title">10 - shoes store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-11.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/11.jpg);"></span>
-                                                        <span class="demo-title">11 - furniture simple store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-12.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/12.jpg);"></span>
-                                                        <span class="demo-title">12 - fashion simple store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-13.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/13.jpg);"></span>
-                                                        <span class="demo-title">13 - market</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-14.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/14.jpg);"></span>
-                                                        <span class="demo-title">14 - market fullwidth</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-15.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/15.jpg);"></span>
-                                                        <span class="demo-title">15 - lookbook 1</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-16.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/16.jpg);"></span>
-                                                        <span class="demo-title">16 - lookbook 2</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-17.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/17.jpg);"></span>
-                                                        <span class="demo-title">17 - fashion store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-18.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/18.jpg);"></span>
-                                                        <span class="demo-title">18 - fashion store (with sidebar)</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-19.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/19.jpg);"></span>
-                                                        <span class="demo-title">19 - games store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-20.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/20.jpg);"></span>
-                                                        <span class="demo-title">20 - book store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-21.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/21.jpg);"></span>
-                                                        <span class="demo-title">21 - sport store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-22.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/22.jpg);"></span>
-                                                        <span class="demo-title">22 - tools store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-23.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/23.jpg);"></span>
-                                                        <span class="demo-title">23 - fashion left navigation store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                                <div class="demo-item hidden">
-                                                    <a href="index-24.html">
-                                                        <span class="demo-bg" style="background-image: url(assets/images/menu/demos/24.jpg);"></span>
-                                                        <span class="demo-title">24 - extreme sport store</span>
-                                                    </a>
-                                                </div><!-- End .demo-item -->
-
-                                            </div><!-- End .demo-list -->
-
-                                            <div class="megamenu-action text-center">
-                                                <a href="#" class="btn btn-outline-primary-2 view-all-demos"><span>View All Demos</span><i class="icon-long-arrow-right"></i></a>
-                                            </div><!-- End .text-center -->
-                                        </div><!-- End .menu-col -->
-                                    </div><!-- End .megamenu -->
                                 </li>
                                 <li>
-                                    <a href="category.html" class="sf-with-ul">Shop</a>
+                                    <a href="/shop" class="sf-with-ul"> All Shops</a>
 
-                                    <div class="megamenu megamenu-md">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-8">
-                                                <div class="menu-col">
-                                                    <div class="row">
-                                                        <div class="col-md-6">
-                                                            <div class="menu-title">Shop with sidebar</div><!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="category-list.html">Shop List</a></li>
-                                                                <li><a href="category-2cols.html">Shop Grid 2 Columns</a></li>
-                                                                <li><a href="category.html">Shop Grid 3 Columns</a></li>
-                                                                <li><a href="category-4cols.html">Shop Grid 4 Columns</a></li>
-                                                                <li><a href="category-market.html"><span>Shop Market<span class="tip tip-new">New</span></span></a></li>
-                                                            </ul>
-
-                                                            <div class="menu-title">Shop no sidebar</div><!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="category-boxed.html"><span>Shop Boxed No Sidebar<span class="tip tip-hot">Hot</span></span></a></li>
-                                                                <li><a href="category-fullwidth.html">Shop Fullwidth No Sidebar</a></li>
-                                                            </ul>
-                                                        </div><!-- End .col-md-6 -->
-
-                                                        <div class="col-md-6">
-                                                            <div class="menu-title">Product Category</div><!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="product-category-boxed.html">Product Category Boxed</a></li>
-                                                                <li><a href="product-category-fullwidth.html"><span>Product Category Fullwidth<span class="tip tip-new">New</span></span></a></li>
-                                                            </ul>
-                                                            <div class="menu-title">Shop Pages</div><!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="cart.html">Cart</a></li>
-                                                                <li><a href="checkout.html">Checkout</a></li>
-                                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                                <li><a href="dashboard.html">My Account</a></li>
-                                                                <li><a href="#">Lookbook</a></li>
-                                                            </ul>
-                                                        </div><!-- End .col-md-6 -->
-                                                    </div><!-- End .row -->
-                                                </div><!-- End .menu-col -->
-                                            </div><!-- End .col-md-8 -->
-
-                                            <div class="col-md-4">
-                                                <div class="banner banner-overlay">
-                                                    <a href="category.html" class="banner banner-menu">
-                                                        <img src="assets/images/menu/banner-1.jpg" alt="Banner">
-
-                                                        <div class="banner-content banner-content-top">
-                                                            <div class="banner-title text-white">Last <br>Chance<br><span><strong>Sale</strong></span></div><!-- End .banner-title -->
-                                                        </div><!-- End .banner-content -->
-                                                    </a>
-                                                </div><!-- End .banner banner-overlay -->
-                                            </div><!-- End .col-md-4 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .megamenu megamenu-md -->
+                                    
                                 </li>
                                 <li>
-                                    <a href="product.html" class="sf-with-ul">Product</a>
+                                    <a href="/product" class="sf-with-ul">Products</a>
 
-                                    <div class="megamenu megamenu-sm">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-6">
-                                                <div class="menu-col">
-                                                    <div class="menu-title">Product Details</div><!-- End .menu-title -->
-                                                    <ul>
-                                                        <li><a href="product.html">Default</a></li>
-                                                        <li><a href="product-centered.html">Centered</a></li>
-                                                        <li><a href="product-extended.html"><span>Extended Info<span class="tip tip-new">New</span></span></a></li>
-                                                        <li><a href="product-gallery.html">Gallery</a></li>
-                                                        <li><a href="product-sticky.html">Sticky Info</a></li>
-                                                        <li><a href="product-sidebar.html">Boxed With Sidebar</a></li>
-                                                        <li><a href="product-fullwidth.html">Full Width</a></li>
-                                                        <li><a href="product-masonry.html">Masonry Sticky Info</a></li>
-                                                    </ul>
-                                                </div><!-- End .menu-col -->
-                                            </div><!-- End .col-md-6 -->
-
-                                            <div class="col-md-6">
-                                                <div class="banner banner-overlay">
-                                                    <a href="category.html">
-                                                        <img src="assets/images/menu/banner-2.jpg" alt="Banner">
-
-                                                        <div class="banner-content banner-content-bottom">
-                                                            <div class="banner-title text-white">New Trends<br><span><strong>spring 2019</strong></span></div><!-- End .banner-title -->
-                                                        </div><!-- End .banner-content -->
-                                                    </a>
-                                                </div><!-- End .banner -->
-                                            </div><!-- End .col-md-6 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .megamenu megamenu-sm -->
                                 </li>
                                 <li>
-                                    <a href="#" class="sf-with-ul">Pages</a>
+                                    <a href="/campaigns" class="sf-with-ul">Campaigns</a>
 
-                                    <ul>
-                                        <li>
-                                            <a href="about.html" class="sf-with-ul">About</a>
-
-                                            <ul>
-                                                <li><a href="about.html">About 01</a></li>
-                                                <li><a href="about-2.html">About 02</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="contact.html" class="sf-with-ul">Contact</a>
-
-                                            <ul>
-                                                <li><a href="contact.html">Contact 01</a></li>
-                                                <li><a href="contact-2.html">Contact 02</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="login.html">Login</a></li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="404.html">Error 404</a></li>
-                                        <li><a href="coming-soon.html">Coming Soon</a></li>
-                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="blog.html" class="sf-with-ul">Blog</a>
+                                    <a href="/contact" class="sf-with-ul">Contact</a>
+                             
 
-                                    <ul>
-                                        <li><a href="blog.html">Classic</a></li>
-                                        <li><a href="blog-listing.html">Listing</a></li>
-                                        <li>
-                                            <a href="#">Grid</a>
-                                            <ul>
-                                                <li><a href="blog-grid-2cols.html">Grid 2 columns</a></li>
-                                                <li><a href="blog-grid-3cols.html">Grid 3 columns</a></li>
-                                                <li><a href="blog-grid-4cols.html">Grid 4 columns</a></li>
-                                                <li><a href="blog-grid-sidebar.html">Grid sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Masonry</a>
-                                            <ul>
-                                                <li><a href="blog-masonry-2cols.html">Masonry 2 columns</a></li>
-                                                <li><a href="blog-masonry-3cols.html">Masonry 3 columns</a></li>
-                                                <li><a href="blog-masonry-4cols.html">Masonry 4 columns</a></li>
-                                                <li><a href="blog-masonry-sidebar.html">Masonry sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Mask</a>
-                                            <ul>
-                                                <li><a href="blog-mask-grid.html">Blog mask grid</a></li>
-                                                <li><a href="blog-mask-masonry.html">Blog mask masonry</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="#">Single Post</a>
-                                            <ul>
-                                                <li><a href="single.html">Default with sidebar</a></li>
-                                                <li><a href="single-fullwidth.html">Fullwidth no sidebar</a></li>
-                                                <li><a href="single-fullwidth-sidebar.html">Fullwidth with sidebar</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li>
-                                    <a href="elements-list.html" class="sf-with-ul">Elements</a>
+                                    <a href="/about" class="sf-with-ul">About</a>
 
-                                    <ul>
-                                        <li><a href="elements-products.html">Products</a></li>
-                                        <li><a href="elements-typography.html">Typography</a></li>
-                                        <li><a href="elements-titles.html">Titles</a></li>
-                                        <li><a href="elements-banners.html">Banners</a></li>
-                                        <li><a href="elements-product-category.html">Product Category</a></li>
-                                        <li><a href="elements-video-banners.html">Video Banners</a></li>
-                                        <li><a href="elements-buttons.html">Buttons</a></li>
-                                        <li><a href="elements-accordions.html">Accordions</a></li>
-                                        <li><a href="elements-tabs.html">Tabs</a></li>
-                                        <li><a href="elements-testimonials.html">Testimonials</a></li>
-                                        <li><a href="elements-blog-posts.html">Blog Posts</a></li>
-                                        <li><a href="elements-portfolio.html">Portfolio</a></li>
-                                        <li><a href="elements-cta.html">Call to Action</a></li>
-                                        <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
-                                    </ul>
                                 </li>
                             </ul><!-- End .menu -->
                         </nav><!-- End .main-nav -->

@@ -36,16 +36,12 @@
                 <div class="container">
                     <div class="header-left">
                        
-                        <div class="header-dropdown">
-                            <a href="#">Eng</a>
-                            <div class="header-menu">
-                                <ul>
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">French</a></li>
-                                    <li><a href="#">Spanish</a></li>
-                                </ul>
-                            </div><!-- End .header-menu -->
-                        </div><!-- End .header-dropdown -->
+                        <div class="flex items-center mr-6"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2875 3.75C12.02 3.89292 12.6933 4.25119 13.221 4.77895C13.7488 5.30671 14.1071 5.97995 14.25 6.7125L11.2875 3.75ZM11.2875 0.75C12.8094 0.919077 14.2287 1.60063 15.3122 2.68276C16.3957 3.76488 17.079 5.18326 17.25 6.705L11.2875 0.75ZM16.5 12.69V14.94C16.5008 15.1489 16.458 15.3556 16.3744 15.547C16.2907 15.7384 16.168 15.9102 16.014 16.0514C15.8601 16.1926 15.6784 16.3001 15.4805 16.367C15.2827 16.4339 15.073 16.4588 14.865 16.44C12.5571 16.1892 10.3402 15.4006 8.39248 14.1375C6.58035 12.986 5.04398 11.4496 3.89248 9.6375C2.62496 7.6809 1.83616 5.45325 1.58998 3.135C1.57124 2.9276 1.59589 2.71857 1.66236 2.52122C1.72882 2.32387 1.83566 2.14252 1.97605 1.98872C2.11645 1.83491 2.28733 1.71203 2.47782 1.62789C2.66831 1.54375 2.87424 1.5002 3.08248 1.5H5.33248C5.69646 1.49642 6.04932 1.62531 6.3253 1.86265C6.60128 2.09999 6.78154 2.42959 6.83248 2.79C6.92745 3.51005 7.10357 4.21705 7.35748 4.8975C7.45839 5.16594 7.48023 5.45769 7.42041 5.73816C7.36059 6.01863 7.22163 6.27608 7.01998 6.48L6.06748 7.4325C7.13515 9.31016 8.68982 10.8648 10.5675 11.9325L11.52 10.98C11.7239 10.7784 11.9813 10.6394 12.2618 10.5796C12.5423 10.5198 12.834 10.5416 13.1025 10.6425C13.7829 10.8964 14.4899 11.0725 15.21 11.1675C15.5743 11.2189 15.907 11.4024 16.1449 11.6831C16.3827 11.9638 16.5091 12.3222 16.5 12.69Z" stroke="#C9151B" stroke-linecap="round" stroke-linejoin="round"></path></svg><a class="ml-2" href="tel:09638111666">09638118222</a></div>
+                            &nbsp
+                            <div class="flex items-center"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.00001 3H15C15.825 3 16.5 3.675 16.5 4.5V13.5C16.5 14.325 15.825 15 15 15H3.00001C2.17501 15 1.50001 14.325 1.50001 13.5V4.5C1.50001 3.675 2.17501 3 3.00001 3Z" stroke="#C9151B" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16.5 4.5L9.00001 9.75L1.50001 4.5" stroke="#C9151B" stroke-linecap="round" stroke-linejoin="round"></path></svg><a href="mailto:support@evaly.com.bd" class="ml-2">support@erp.com.bd</a></div>
+                        
                     </div><!-- End .header-left -->
 
                     <div class="header-right">
@@ -53,7 +49,7 @@
                             <li>
                                 <a href="#">Links</a>
                                 <ul>
-                                    <li><a href="tel:#"><i class="icon-phone"></i>Call: +8801684726517</a></li>
+                                   
                                     <li><a href="about.html">About Us</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
                                     <li><a href="/login"><i class="icon-user"></i>Login</a></li>
@@ -79,55 +75,30 @@
                         <nav class="main-nav">
                             <ul class="menu sf-arrows">
                                 <li class="megamenu-container active">
-                                    <a href="index.html" class="sf-with-ul">Home</a>
+                                    <a href="/home" class="sf-with-ul">Home</a>
 
                                 </li>
                                 <li>
-                                    <a href="category.html" class="sf-with-ul">All Shops</a>
+                                    <a href="/shop" class="sf-with-ul"> All Shops</a>
 
-                                    <div class="megamenu megamenu-md">
-                                        <div class="row no-gutters">
-                                            <div class="col-md-8">
-                                                <div class="menu-col">
-                                                    <div class="row">                                                  
-                                                        <div class="col-md-6">
-                                                            <div class="menu-title">Product Category</div><!-- End .menu-title -->
-                                                            <ul>
-                                                                <li><a href="product-category-boxed.html">Product Category Boxed</a></li>
-                                                                <li><a href="product-category-fullwidth.html"><span>Product Category Fullwidth<span class="tip tip-new">New</span></span></a></li>
-                                                            </ul>
-                                                            
-                                                           
-                                                        </div><!-- End .col-md-6 -->
-                                                    </div><!-- End .row -->
-                                                </div><!-- End .menu-col -->
-                                            </div><!-- End .col-md-8 -->
 
-                                            <div class="col-md-4">
-                                                <div class="banner banner-overlay">
-                                                    <a href="category.html" class="banner banner-menu">
-                                                        <img src="assets/images/menu/banner-1.jpg" alt="Banner">
+                                </li>
+                                <li>
+                                    <a href="/product" class="sf-with-ul">Products</a>
 
-                                                        <div class="banner-content banner-content-top">
-                                                            <div class="banner-title text-white">Last <br>Chance<br><span><strong>Sale</strong></span></div><!-- End .banner-title -->
-                                                        </div><!-- End .banner-content -->
-                                                    </a>
-                                                </div><!-- End .banner banner-overlay -->
-                                            </div><!-- End .col-md-4 -->
-                                        </div><!-- End .row -->
-                                    </div><!-- End .megamenu megamenu-md -->
                                 </li>
                                 <li>
-                                    <a href="product.html" class="sf-with-ul">Campaigns</a>                                  
+                                    <a href="/campaigns" class="sf-with-ul">Campaigns</a>
+
                                 </li>
                                 <li>
-                                    <a href="about.html" class="sf-with-ul">About</a>
+                                    <a href="/contact" class="sf-with-ul">Contact</a>
+
+
                                 </li>
                                 <li>
-                                 <a href="contact.html" class="sf-with-ul">Contact</a>                                      
-                                </li>
-                                <li>
-                                    <a href="help.html" class="sf-with-ul">Help</a>
+                                    <a href="/about" class="sf-with-ul">About</a>
+
                                 </li>
                             </ul><!-- End .menu -->
                         </nav><!-- End .main-nav -->
@@ -270,35 +241,54 @@
 							    	</div><!-- End .form-choice -->
 							    </div><!-- .End .tab-pane -->
 							    <div class="tab-pane fade show active" id="register-2" role="tabpanel" aria-labelledby="register-tab-2">
-							    	<form action="{{ route('store')  }}" method="post">
+							    	<form action="{{ route('store')}}"  method="post">
+                                    
 							    		@csrf
                                         <div class="form-group">
 							    			<label for="register-email-2">Type Your Full Name *</label>
-							    			<input type="text" class="form-control" id="register-email-2" name="user_name" required>
+							    			<input type="text" class="form-control" id="register-email-2" name="user_name" >
+                                            @error('user_name')
+                                                {{ $message }}
+                                            @enderror
 							    		</div><!-- Customer Name-->
                                         <div class="form-group">
 							    			<label for="register-email-2">Type Your Address *</label>
-							    			<input type="text" class="form-control" id="register-email-2" name="user_address" required>
-							    		</div><!-- End .form-group -->
+							    			<input type="text" class="form-control" id="register-email-2" name="user_address" >
+                                            @error('user_address')
+                                            {{ $message }}
+                                        @enderror
+                                        </div><!-- End .form-group -->
                                         <div class="form-group">
 							    			<label for="register-email-2">Birthday:</label>
-							    			<input type="date" class="form-control" id="birthday" name="user_dob" required>
+							    			<input type="date" class="form-control" id="birthday" name="user_dob" >
+                                            @error('user_dob')
+                                            {{ $message }}
+                                        @enderror
 							    		</div><!-- End .dob -->
                                        
                                         
                                         <div class="form-group">
 							    			<label for="register-email-2">Type Your Mobile Number *</label>
-							    			<input type="text" class="form-control" id="register-email-2" name="user_mob" required>
-							    		</div><!-- End .form-group -->
+							    			<input type="text" class="form-control" id="register-email-2" name="user_mob" >
+                                            @error('user_mob')
+                                            {{ $message }}
+                                        @enderror
+                                        </div><!-- End .form-group -->
                                         <div class="form-group">
 							    			<label for="register-email-2">Type Your E-mail Address *</label>
 							    			<input type="email" class="form-control" id="register-email-2" name="user_email" required>
-							    		</div><!-- End .form-group -->
+                                            @error('user_email')
+                                            {{ $message }}
+                                        @enderror
+                                        </div><!-- End .form-group -->
 
 							    		<div class="form-group">
 							    			<label for="register-password-2">Password *</label>
-							    			<input type="password" class="form-control" id="register-password-2" name="user_password" required>
-							    		</div><!-- End .form-group -->
+							    			<input type="password" class="form-control" id="register-password-2" name="user_password" >
+                                            @error('user_password')
+                                            {{ $message }}
+                                        @enderror
+                                        </div><!-- End .form-group -->
 
 							    		<div class="form-footer">
 							    			<button type="submit" class="btn btn-outline-primary-2">
@@ -404,7 +394,7 @@
 
 	        <div class="footer-bottom">
 	        	<div class="container">
-	        		<p class="footer-copyright">Copyright © 2019 Molla Store. All Rights Reserved.</p><!-- End .footer-copyright -->
+	        		<p class="footer-copyright">Copyright © 2021 Molla Store. All Rights Reserved.</p><!-- End .footer-copyright -->
 	        		<figure class="footer-payments">
 	        			<img src="assets/images/payments.png" alt="Payment methods" width="272" height="20">
 	        		</figure><!-- End .footer-payments -->
