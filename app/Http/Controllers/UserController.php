@@ -66,11 +66,23 @@ class UserController extends Controller
     }
 
     public function edit($id){
-        echo $id;
+        //echo $id;
+        $user=User_Table::find($id);
+        return view('edit')->with('user',$user);
     }
 
     public function update(Request $req,$id){
-        echo $id;
+        //echo $id;
+        $user=User_Table::find($id);
+        $user->username=$req->username;
+        $user->password=$req->password;
+        $user->email=$req->email;
+        $user->role=$req->role;
+        $user->save();
+
+        return redirect('/user');
+
+
     }
 
     public function delete($id){
@@ -93,7 +105,7 @@ class UserController extends Controller
     public function submit(Request $req){
         $data= $req->all();
         User_Table::create($data);
-        return redirect ('/create');
+        return redirect ('/user');
     }
 
     public function user_delete($id)

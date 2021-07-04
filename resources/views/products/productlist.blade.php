@@ -596,8 +596,8 @@
                             </div>
                         </div>
                         <div class="table-data__tool-right">
-                         <a href='/create'><button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                <i class="zmdi zmdi-plus"></i>add user</button></a>
+                         <a href='/products/create'><button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                <i class="zmdi zmdi-plus"></i>add product</button></a>
                         </div>
                     
                         <div class="row">
@@ -605,7 +605,7 @@
                                 <!-- USER DATA-->
                                 <div class="user-data m-b-30">
                                     <h3 class="title-3 m-b-30">
-                                        <i class="zmdi zmdi-account-calendar"></i>user data</h3>
+                                        <i class="zmdi zmdi-account-calendar"></i>product data</h3>
                                     <div class="filters m-b-45">
                                         <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
                                             <select class="js-select2" name="property">
@@ -634,12 +634,12 @@
                                                             <span class="au-checkmark"></span>
                                                         </label>
                                                     </td>-->
-                                                    <td>ID</td>
-                                                    <td>Username</td>
-                                                    <td>Password</td>
-                                                   <td>email</td>
+                                                    <td>Product ID</td>
+                                                    <td>Product Name</td>
+                                                    <td>MRP</td>
+                                                   {{-- <td>email</td> --}}
                                                     <!--<td>phone</td>-->
-                                                    <td>role</td>
+                                                    {{-- <td>role</td> --}}
                                                     <td>Action</td>
                                                     <td>Action</td>
                                                     <!--<td>type</td>-->
@@ -647,7 +647,7 @@
                                             </thead>
                                             <tbody>
                                                 
-                                                @foreach ($userlist as $user)
+                                                @foreach ($productlist as $user)
                                                     <tr>
                                                    <!--<td>
                                                         <label class="au-checkbox">
@@ -670,7 +670,7 @@
                                                         <div class="table-data__info">
                                                             <!--<h4>lori lynch</h4>-->
                                                             {{--<span>{{$user[1]}}</span>--}}
-                                                            <span>{{$user['username']}}</span>
+                                                            <span>{{$user['product_name']}}</span>
 
                                                             <!--<span>
                                                                 <a href="#">johndoe@gmail.com</a>
@@ -680,7 +680,7 @@
                                                     <td>
                                                         <div class="table-data__info">
                                                             {{--<span>{{$user[2]}}</span>--}}
-                                                            <span>{{$user['password']}}</span>
+                                                            <span>{{$user['MRP']}}</span>
 
                                                             <!--<span>
                                                                 <a href="#">johndoe@gmail.com</a>
@@ -693,11 +693,11 @@
                                                         
                                                         </div>
                                                     </td>-->
-                                                    <td>
+                                                    {{-- <td> --}}
                                                         {{--<span class="role admin">{{$user[3]}}</span>--}}
-                                                        <span class="role admin">{{$user['email']}}</span>
+                                                        {{-- <span class="role admin">{{$user['email']}}</span> --}}
 
-                                                    </td>
+                                                    {{-- </td> --}}
                                                     <!--<td>
                                                         <div class="rs-select2--trans rs-select2--sm">
                                                             <select class="js-select2" name="property">
@@ -708,16 +708,16 @@
                                                             <div class="dropDownSelect2"></div>
                                                         </div>
                                                     </td>-->
-                                                    <td>
-                                                        <div class="table-data__info">
+                                                    {{-- <td>
+                                                        <div class="table-data__info"> --}}
                                                             {{--<span>{{$user[4]}}</span>--}}
-                                                            <span>{{$user['role']}}</span>
+                                                            {{-- <span>{{$user['role']}}</span> --}}
 
                                                             <!--<span>
                                                                 <a href="#">johndoe@gmail.com</a>
                                                             </span>-->
-                                                        </div>
-                                                    </td>
+                                                        {{-- </div>
+                                                    </td> --}}
                                                     
                                                     <!--<td>
                                                         <span class="more">
@@ -725,8 +725,8 @@
                                                         </span>
                                                     </td>-->
                                                     <td>
-                                                        <a href="/edit/{{$user['id']}}">Edit</a></td>
-                                                        <td><a href="/delete/{{$user['id']}}">Delete</a>
+                                                        <a href="/products/edit/{{$user['id']}}">Edit</a></td>
+                                                        <td><a href="/products/delete/{{$user['id']}}">Delete</a>
                                                     </td>
                                                 </tr>
                                                 @endforeach

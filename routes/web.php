@@ -52,6 +52,43 @@ Route::get('/user','UserController@index');
 
  Route::get('/delete/{id}', 'UserController@user_delete')->name("user_delete");
 
+ //product controller
+ Route::get('/productlist','ProductController@index');
+ Route::get('/products/create','ProductController@create');
+ Route::post('/products/create','ProductController@verify');
+ Route::post('/products/create','ProductController@submit');
+ Route::get('/products/edit/{id}','ProductController@edit');
+ Route::post('/products/edit/{id}','ProductController@update');
+ Route::get('/products/delete/{id}', 'ProductController@delete')->name("delete");
+
+ //brand controller
+ Route::get('/brandlist','BrandController@index');
+ Route::get('/brands/create','BrandController@create');
+ Route::post('/brands/create','BrandController@verify');
+ Route::post('/brands/create','BrandController@submit');
+ Route::get('/brands/edit/{id}','BrandController@edit');
+ Route::post('/brands/edit/{id}','BrandController@update');
+ Route::get('/brands/delete/{id}', 'BrandController@delete')->name("delete");
+
+ //category controller
+
+ Route::get('/categorylist','CategoryController@index');
+ Route::get('/categories/create','CategoryController@create');
+ Route::post('/categories/create','CategoryController@verify');
+ Route::post('/categories/create','CategoryController@submit');
+ Route::get('/categories/edit/{id}','CategoryController@edit');
+ Route::post('/categories/edit/{id}','CategoryController@update');
+ Route::get('/categories/delete/{id}', 'CategoryController@delete')->name("delete");
+
+ //company controller
+ Route::get('/companylist','CompanyController@index');
+ Route::get('/companies/create','CompanyController@create');
+ Route::post('/companies/create','CompanyController@verify');
+ Route::post('/companies/create','CompanyController@submit');
+ Route::get('/companies/edit/{id}','CompanyController@edit');
+ Route::post('/companies/edit/{id}','CompanyController@update');
+ Route::get('/companies/delete/{id}', 'CompanyController@delete')->name("delete");
+
 
 
 

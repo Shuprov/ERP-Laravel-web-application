@@ -188,10 +188,35 @@
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>Charts</a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="table.html">
                                 <a href='/user'>Tables</a>
                                 <!--<i class="fas fa-table"></i>Tables</a>-->
+                        </li> --}}
+                        <li class="active">
+                            <a href="user">
+                                <i class="fas fa-table"></i>Manage Users</a>
+                        </li>
+                        {{-- <li class="active">
+                            <a href="table.html">
+                                <a href="user">
+                                <i class="fas fa-table"></i>Tables</a>
+                        </li> --}}
+                        <li class="active">
+                            <a href="productlist">
+                                <i class="fas fa-table"></i>Products</a>
+                        </li>
+                        <li class="active">
+                            <a href="brandlist">
+                                <i class="fas fa-table"></i>Brands</a>
+                        </li>
+                        <li class="active">
+                            <a href="categorylist">
+                                <i class="fas fa-table"></i>Categories</a>
+                        </li>
+                        <li class="active">
+                            <a href="companylist">
+                                <i class="fas fa-table"></i>Companies</a>
                         </li>
                         <li>
                             <a href="form.html">
@@ -394,23 +419,23 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
-                                            <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                            <img src="images/icon/avatar-01.jpg" alt="Md Asifur Rahman" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#">Md Asifur Rahman</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                        <img src="images/icon/avatar-01.jpg" alt="Md Asifur Rahman" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">Md Asifur Rahman</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email">asifurshuprov@gmail.com</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -733,7 +758,7 @@
                                     </div>
                                     <div class="au-task js-list-load">
                                         <div class="au-task__title">
-                                            <p>Tasks for John Doe</p>
+                                            <p>Tasks for Md Asifur Rahman</p>
                                         </div>
                                         <div class="au-task-list js-scrollbar3">
                                             <div class="au-task__item au-task__item--danger">
