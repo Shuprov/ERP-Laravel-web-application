@@ -214,6 +214,10 @@
                             <a href="companylist">
                                 <i class="fas fa-table"></i>Companies</a>
                         </li>
+                        <li class="active">
+                            <a href="storelist">
+                                <i class="fas fa-table"></i>Stores</a>
+                        </li>
                         <li>
                             <a href="form.html">
                         <!--<a href='/user/create'>add user</a>-->

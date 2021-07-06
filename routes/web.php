@@ -90,6 +90,15 @@ Route::get('/user','UserController@index');
  Route::get('/companies/delete/{id}', 'CompanyController@delete')->name("delete");
 
 
+ //store controller
+ Route::get('/storelist','StoreController@index');
+ Route::get('/stores/create','StoreController@create');
+ Route::post('/stores/create','StoreController@verify');
+ Route::post('/stores/create','StoreController@submit');
+ Route::get('/stores/edit/{id}','StoreController@edit');
+ Route::post('/stores/edit/{id}','StoreController@update');
+ Route::get('/stores/delete/{id}', 'StoreController@delete')->name("delete");
+
 
 
 

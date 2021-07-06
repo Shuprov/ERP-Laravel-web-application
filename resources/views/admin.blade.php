@@ -218,6 +218,10 @@
                             <a href="companylist">
                                 <i class="fas fa-table"></i>Companies</a>
                         </li>
+                        <li class="active">
+                            <a href="storelist">
+                                <i class="fas fa-table"></i>Stores</a>
+                        </li>
                         <li>
                             <a href="form.html">
                                 <i class="far fa-check-square"></i>Forms</a>

@@ -600,8 +600,8 @@
                             </div>
                         </div>
                         <div class="table-data__tool-right">
-                         <a href='/brands/create'><button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                <i class="zmdi zmdi-plus"></i>add brand</button></a>
+                         <a href='/stores/create'><button class="au-btn au-btn-icon au-btn--green au-btn--small">
+                                <i class="zmdi zmdi-plus"></i>add store</button></a>
                         </div>
                     
                         <div class="row">
@@ -609,7 +609,7 @@
                                 <!-- USER DATA-->
                                 <div class="user-data m-b-30">
                                     <h3 class="title-3 m-b-30">
-                                        <i class="zmdi zmdi-account-calendar"></i>brand data</h3>
+                                        <i class="zmdi zmdi-account-calendar"></i>store data</h3>
                                     <div class="filters m-b-45">
                                         <div class="rs-select2--dark rs-select2--md m-r-10 rs-select2--border">
                                             <select class="js-select2" name="property">
@@ -638,8 +638,8 @@
                                                             <span class="au-checkmark"></span>
                                                         </label>
                                                     </td>-->
-                                                    <td>Brand ID</td>
-                                                    <td>Brand Name</td>
+                                                    <td>Store ID</td>
+                                                    <td>Store Name</td>
                                                     <td>Description</td>
                                                    {{-- <td>email</td> --}}
                                                     <!--<td>phone</td>-->
@@ -651,7 +651,7 @@
                                             </thead>
                                             <tbody>
                                                 
-                                                @foreach ($brandlist as $user)
+                                                @foreach ($storelist as $user)
                                                     <tr>
                                                    <!--<td>
                                                         <label class="au-checkbox">
@@ -674,7 +674,7 @@
                                                         <div class="table-data__info">
                                                             <!--<h4>lori lynch</h4>-->
                                                             {{--<span>{{$user[1]}}</span>--}}
-                                                            <span>{{$user['brand_name']}}</span>
+                                                            <span>{{$user['store_name']}}</span>
 
                                                             <!--<span>
                                                                 <a href="#">johndoe@gmail.com</a>
@@ -729,8 +729,8 @@
                                                         </span>
                                                     </td>-->
                                                     <td>
-                                                        <a href="/brands/edit/{{$user['id']}}">Edit</a></td>
-                                                        <td><a href="/brands/delete/{{$user['id']}}">Delete</a>
+                                                        <a href="/stores/edit/{{$user['id']}}">Edit</a></td>
+                                                        <td><a href="/stores/delete/{{$user['id']}}">Delete</a>
                                                     </td>
                                                 </tr>
                                                 @endforeach
