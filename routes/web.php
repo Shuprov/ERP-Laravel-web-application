@@ -37,15 +37,15 @@ Route::get('/logout','LogoutController@index');
 
 Route::get('/user','UserController@index');
 //Route::post('/user','UserController@index');
- Route::get('/create','UserController@create');
- Route::post('/create','UserController@verify');
+  Route::get('/create','UserController@create');
+//  Route::post('/create','UserController@verify');
 
 
  Route::get('/edit/{id}','UserController@edit');
  Route::post('/edit/{id}','UserController@update');
 
- Route::get('/delete/{id}','UserController@delete');
- Route::post('/delete/{id}','UserController@destroy');
+//  Route::get('/delete/{id}','UserController@delete');
+//  Route::post('/delete/{id}','UserController@destroy');
 
  //Route::get('/create','UserController@submit');
  Route::post('/create','UserController@submit');
@@ -98,6 +98,7 @@ Route::get('/user','UserController@index');
  Route::get('/stores/edit/{id}','StoreController@edit');
  Route::post('/stores/edit/{id}','StoreController@update');
  Route::get('/stores/delete/{id}', 'StoreController@delete')->name("delete");
+ 
 
 
 

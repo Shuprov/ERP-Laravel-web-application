@@ -14,7 +14,7 @@ class User_Table extends Model
 
    
     protected $fillable = [
-        'username',
+        'name',
         'password',
         'email',
         'role'
